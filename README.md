@@ -1,7 +1,5 @@
-# HP-proxy-Server-Fan-Control-System
-
+# HP proxy Server Fan Control System
 ## English Documentation
-
 ### Overview
 This project allows you to control server fans based on temperature readings obtained from IPMI sensors. The system uses an Arduino Nano for controlling the fan speeds, which are adjusted based on dynamic thresholds set in the Python script. The Arduino reads analog signals from the motherboard's temperature sensors and adjusts the fan speeds accordingly.
 
@@ -32,6 +30,8 @@ This project allows you to control server fans based on temperature readings obt
    - Pin 9: HDD fan
    - Pin 10: PCIe fan
    - Pin 11: Auxiliary fan
+
+![image](https://github.com/user-attachments/assets/c559ba73-9b37-4df4-a5cb-4165fafeb8f7)
 
 ### Installation
 ```
