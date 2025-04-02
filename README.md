@@ -153,27 +153,27 @@ Credits: https://www.michu-it.com/portfolio/hp-proliant-custom-fan-proxy/
    - Pin 11: Auxiliary fan
 
 ### Установка
-&&&
+```
 git clone https://github.com/your-repo/server-fan-control.git  
 cd server-fan-control  
 pip install pyserial requests  
 chmod +x fan_controller.py  
-&&&
+```
 
 ### Настройка
 Отредактируйте переменные в начале скрипта:
-&&&
+```
 ipmiip = "192.168.1.60"       # IP-адрес IPMI  
 ipmilogin = "Administrator"   # Логин IPMI  
 ipmipassword = "PassW0rd"     # Пароль IPMI  
 prefan = 120                  # Время начального охлаждения (сек)  
 country = "Moscow"            # Ваш город для погодных данных  
-&&&
+```
 
 ### Использование
-&&&
+```
 ./fan_controller.py [--offset ПРОЦЕНТ] [--usetemp warning|critical] [--test]  
-&&&
+```
 
 #### Параметры:
 - `--offset`: Запас ниже базовой температуры (по умолчанию: 20%)  
