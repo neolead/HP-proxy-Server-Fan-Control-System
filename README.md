@@ -4,8 +4,20 @@
 This project allows you to control server fans based on temperature readings obtained from IPMI sensors. The system uses an Arduino Nano for controlling the fan speeds, which are adjusted based on dynamic thresholds set in the Python script. The Arduino reads analog signals from the motherboard's temperature sensors and adjusts the fan speeds accordingly.
 
 ## NOW WITH SNMP!!!
-### SNMP Monitoring :
+### SNMP server :
 ### python3 fan_controller_snmp.py --snmp  
+
+## SNMP client Monitoring Script Integration
+### This Python script connects to a monitoring management system, retrieves system, fan, and sensor data using SNMP, and displays it in a formatted table. It continuously updates the data and is designed to integrate seamlessly with other monitoring scripts.
+
+### Features:
+#### SNMP data retrieval and parsing
+#### Displays system, fan speeds, and sensor readings
+#### Color-coded status for easy monitoring
+```
+python3 snmp_monitor.py
+```
+![image](https://github.com/user-attachments/assets/87426593-29b8-4074-9b5b-3f85ace9309d)
 
 ### Features
 🌀 **Intelligent fan control** based on IPMI temperature sensors  
