@@ -1,7 +1,11 @@
-# HP proxy Server Fan Control System
+# HP proxy Server Fan Control System NOW WITH SNMP!!!
 ## English Documentation
 ### Overview
 This project allows you to control server fans based on temperature readings obtained from IPMI sensors. The system uses an Arduino Nano for controlling the fan speeds, which are adjusted based on dynamic thresholds set in the Python script. The Arduino reads analog signals from the motherboard's temperature sensors and adjusts the fan speeds accordingly.
+
+## NOW WITH SNMP!!!
+### SNMP Monitoring :
+### python3 fan_controller_snmp.py --snmp  
 
 ### Features
 🌀 **Intelligent fan control** based on IPMI temperature sensors  
