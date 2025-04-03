@@ -15,7 +15,7 @@ This project allows you to control server fans based on temperature readings obt
 #### Displays system, fan speeds, and sensor readings
 #### Color-coded status for easy monitoring
 ```
-python3 snmp_monitor.py
+python3 monitor_snmp.py
 ```
 ![image](https://github.com/user-attachments/assets/87426593-29b8-4074-9b5b-3f85ace9309d)
 
